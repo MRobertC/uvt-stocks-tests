@@ -17,7 +17,7 @@ public class ChromeWebDriver extends EventFiringWebDriver {
     }
 
     private static ChromeOptions getChromeOptions() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/chromedriver_windows.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--window-size=1920,1080");
         options.addArguments("--log-level=3");

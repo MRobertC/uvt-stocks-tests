@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="mockup automation project">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_mac" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/ChromeWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/ChromeWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_linux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/ChromeWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/ChromeWebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver_linux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver_mac" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver_windows.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_windows.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockup/features/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockup/features/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockup/features/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_directory_selection": "/home/robert.curetean/Desktop/Projects/Java Selenium Mockup/src/test/java",
-    "last_opened_file_path": "C:/Projects/uvt-stocks-tests/src/main/resources",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/robert.curetean/Desktop/Projects/Java Selenium Mockup/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/uvt-stocks-tests/src/main/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\uvt-stocks-tests\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\uvt-stocks-tests\src\main\resources" />
     </key>
   </component>
@@ -165,6 +162,17 @@
       <updated>1678441735627</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
