@@ -13,7 +13,7 @@ public class ChromeWebDriver extends EventFiringWebDriver {
 
     public ChromeWebDriver() {
         super(new ChromeDriver(getChromeOptions()));
-        wait = new WebDriverWait(this, Duration.ofSeconds(20), Duration.ofMillis(2000));
+        wait = new WebDriverWait(this, Duration.ofSeconds(10), Duration.ofMillis(1000));
     }
 
     private static ChromeOptions getChromeOptions() {

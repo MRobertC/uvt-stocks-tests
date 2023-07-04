@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class RegistrationPage {
 
     private ChromeWebDriver driver;
-    private final By usernameField = By.id("username");
+    protected final By usernameField = By.id("register-username-input");
     private final By emailField = By.id("email");
     private final By passwordField = By.id("password");
     private final By confirmPasswordField = By.id("confirm-password");
@@ -40,5 +40,10 @@ public class RegistrationPage {
     public void clickRegisterButton() {
         WebElement element = driver.findElement(registerButton);
         element.click();
+    }
+
+    public boolean isRegisterButtonVisible() {
+        WebElement element = driver.findElement(registerButton);
+        return element.isDisplayed();
     }
 }

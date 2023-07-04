@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="mockup automation project">
+    <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="upgrade to chromedriver 114">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/DashboardPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/ChromeWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/ChromeWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver_linux" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver_mac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver_windows.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_windows.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/HomePageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +35,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="Rerun Failed Tests" />
-    </enabled-run-configurations>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,18 +60,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/robert.curetean/Desktop/Projects/Java Selenium Mockup/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projects/uvt-stocks-tests/src/main/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_directory_selection": "/home/robert.curetean/Desktop/Projects/Java Selenium Mockup/src/test/java",
+    "last_opened_file_path": "C:/Projects/uvt-stocks-tests/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\uvt-stocks-tests\src\main\resources" />
@@ -78,66 +83,82 @@
       <recent name="C:\Projects\uvt-stocks-tests\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationTest.testRegistration">
-    <configuration name="HomePageTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginTest.testLogoVisibility">
+    <configuration name="LoginTest.testDisabledLogInButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSeleniumMockup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mockup.features.*" />
+          <option name="PATTERN" value="com.stocks.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mockup.features" />
-      <option name="MAIN_CLASS_NAME" value="com.mockup.features.HomePageTest" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
+      <option name="METHOD_NAME" value="testDisabledLogInButton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.testTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.testLogoVisibility" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSeleniumMockup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mockup.features.*" />
+          <option name="PATTERN" value="com.stocks.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mockup.features" />
-      <option name="MAIN_CLASS_NAME" value="com.mockup.features.HomePageTest" />
-      <option name="METHOD_NAME" value="testTitle" />
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
+      <option name="METHOD_NAME" value="testLogoVisibility" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.testMissingValuePasswordError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSeleniumMockup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mockup.features.LoginPageTest" />
+          <option name="PATTERN" value="com.stocks.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mockup.features" />
-      <option name="MAIN_CLASS_NAME" value="com.mockup.features.LoginPageTest" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
+      <option name="METHOD_NAME" value="testMissingValuePasswordError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.testRefreshEmptyData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSeleniumMockup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mockup.features.*" />
+          <option name="PATTERN" value="com.stocks.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mockup.features" />
-      <option name="MAIN_CLASS_NAME" value="com.mockup.features.RegistrationTest" />
-      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
+      <option name="METHOD_NAME" value="testRefreshEmptyData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testRegistrationLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSeleniumMockup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stocks.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
+      <option name="METHOD_NAME" value="testRegistrationLink" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,10 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegistrationTest.testRegistration" />
-        <item itemvalue="JUnit.HomePageTest.testTitle" />
-        <item itemvalue="JUnit.HomePageTest.testLogin" />
-        <item itemvalue="JUnit.LoginPageTest.testLogin" />
+        <item itemvalue="JUnit.LoginTest.testLogoVisibility" />
+        <item itemvalue="JUnit.LoginTest.testDisabledLogInButton" />
+        <item itemvalue="JUnit.LoginTest.testRefreshEmptyData" />
+        <item itemvalue="JUnit.LoginTest.testRegistrationLink" />
+        <item itemvalue="JUnit.LoginTest.testMissingValuePasswordError" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +183,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678441735627</updated>
     </task>
+    <task id="LOCAL-00001" summary="upgrade to chromedriver 114">
+      <created>1688381987788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688381987788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="mockup automation project" />
-    <option name="LAST_COMMIT_MESSAGE" value="mockup automation project" />
+    <MESSAGE value="upgrade to chromedriver 114" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade to chromedriver 114" />
   </component>
 </project>

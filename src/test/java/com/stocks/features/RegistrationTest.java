@@ -3,6 +3,7 @@ package com.stocks.features;
 import com.stocks.ChromeWebDriver;
 import com.stocks.pageDefinitions.HomePage;
 import com.stocks.pageDefinitions.RegistrationPage;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -23,7 +24,11 @@ public class RegistrationTest {
         registrationPage.setPassword("password");
         registrationPage.setConfirmPassword("password");
         registrationPage.clickRegisterButton();
-        driver.quit();
         // Add assertions to verify successful registration
+    }
+
+    @After
+    public void destroy() {
+        driver.quit();
     }
 }

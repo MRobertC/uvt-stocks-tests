@@ -11,7 +11,6 @@ public class HomePage {
     }
 
     public void navigateToHomePage() {
-        driver = new ChromeWebDriver();
         driver.get("http://localhost:4200");
     }
 }
