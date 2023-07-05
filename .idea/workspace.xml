@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="login tests for stocks">
+    <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="registration tests for stocks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/DashboardPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/DashboardPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/DashboardPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/DashboardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/RegistrationTest.java" afterDir="false" />
     </list>
@@ -78,7 +76,39 @@
       <recent name="C:\Projects\uvt-stocks-tests\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationTest">
+  <component name="RunManager" selected="JUnit.DashboardTest.testNumberOfStocks">
+    <configuration name="DashboardTest.testLogOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSeleniumMockup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stocks.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.DashboardTest" />
+      <option name="METHOD_NAME" value="testLogOut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardTest.testNumberOfStocks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSeleniumMockup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stocks.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.DashboardTest" />
+      <option name="METHOD_NAME" value="testNumberOfStocks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSeleniumMockup" />
       <extension name="coverage">
@@ -94,22 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testRegistrationLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSeleniumMockup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stocks.features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stocks.features" />
-      <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
-      <option name="METHOD_NAME" value="testRegistrationLink" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSeleniumMockup" />
       <extension name="coverage">
@@ -121,22 +135,6 @@
       <option name="PACKAGE_NAME" value="com.stocks.features" />
       <option name="MAIN_CLASS_NAME" value="com.stocks.features.RegistrationTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTest.testBackToLogInLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSeleniumMockup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stocks.features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stocks.features" />
-      <option name="MAIN_CLASS_NAME" value="com.stocks.features.RegistrationTest" />
-      <option name="METHOD_NAME" value="testBackToLogInLink" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DashboardTest.testNumberOfStocks" />
+        <item itemvalue="JUnit.DashboardTest.testLogOut" />
         <item itemvalue="JUnit.RegistrationTest" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.RegistrationTest.testSuccessfulRegistration" />
-        <item itemvalue="JUnit.RegistrationTest.testBackToLogInLink" />
-        <item itemvalue="JUnit.LoginTest.testRegistrationLink" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688485275182</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="registration tests for stocks">
+      <created>1688544288129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688544288129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +214,7 @@
     <MESSAGE value="mockup automation project" />
     <MESSAGE value="upgrade to chromedriver 114" />
     <MESSAGE value="login tests for stocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="login tests for stocks" />
+    <MESSAGE value="registration tests for stocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration tests for stocks" />
   </component>
 </project>

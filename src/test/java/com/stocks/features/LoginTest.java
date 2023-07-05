@@ -27,7 +27,7 @@ public class LoginTest {
         loginPage.setPassword("parola1234");
         loginPage.clickLoginButton();
         DashboardPage dashboardPage = new DashboardPage(driver);
-        Assert.assertEquals("rcuretean", dashboardPage.getTitle());
+        Assert.assertEquals("rcuretean", dashboardPage.getUsername());
     }
 
     @Test
