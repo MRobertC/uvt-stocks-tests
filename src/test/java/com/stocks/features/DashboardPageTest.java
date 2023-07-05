@@ -2,7 +2,6 @@ package com.stocks.features;
 
 import com.stocks.ChromeWebDriver;
 import com.stocks.pageDefinitions.DashboardPage;
-import com.stocks.pageDefinitions.HomePage;
 import com.stocks.pageDefinitions.LoginPage;
 import org.junit.After;
 import org.junit.Before;
@@ -15,8 +14,6 @@ public class DashboardPageTest {
 
     @Before
     public void setup() {
-        HomePage homePage = new HomePage(driver);
-        homePage.navigateToHomePage();
     }
 
     @After

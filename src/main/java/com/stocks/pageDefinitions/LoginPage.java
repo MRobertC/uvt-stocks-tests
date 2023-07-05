@@ -22,6 +22,7 @@ public class LoginPage {
     }
 
     public void setEmail(String email) {
+        driver.getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(emailField));
         WebElement element = driver.findElement(emailField);
         element.clear();
         element.click();
@@ -50,11 +51,6 @@ public class LoginPage {
         element.click();
     }
 
-    public void clickRegistrationLink() {
-        WebElement element = driver.findElement(registrationLink);
-        element.click();
-    }
-
     public String getAlertMessage() {
         driver.getWebDriverWait().until(ExpectedConditions.alertIsPresent());
         return driver.switchTo().alert().getText();
@@ -74,7 +70,17 @@ public class LoginPage {
         return driver.findElement(disabledLogInButton).isDisplayed();
     }
 
+    public boolean isLogInButtonVisible() {
+        WebElement element = driver.findElement(loginButton);
+        return element.isDisplayed();
+    }
+
     public boolean isLogoVisible() {
         return driver.findElement(StocksApiLogo).isDisplayed();
+    }
+
+    public RegistrationPage clickRegistrationLink() {
+        driver.findElement(registrationLink).click();
+        return new RegistrationPage(driver);
     }
 }

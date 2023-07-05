@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="upgrade to chromedriver 114">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/DashboardPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="login tests for stocks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/ChromeWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/ChromeWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/HomePage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stocks/pageDefinitions/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/HomePageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/DashboardPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/DashboardPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/stocks/features/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stocks/features/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +78,8 @@
       <recent name="C:\Projects\uvt-stocks-tests\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.testLogoVisibility">
-    <configuration name="LoginTest.testDisabledLogInButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegistrationTest">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSeleniumMockup" />
       <extension name="coverage">
         <pattern>
@@ -94,56 +89,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.stocks.features" />
       <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
-      <option name="METHOD_NAME" value="testDisabledLogInButton" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.testLogoVisibility" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSeleniumMockup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stocks.features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stocks.features" />
-      <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
-      <option name="METHOD_NAME" value="testLogoVisibility" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.testMissingValuePasswordError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSeleniumMockup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stocks.features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stocks.features" />
-      <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
-      <option name="METHOD_NAME" value="testMissingValuePasswordError" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.testRefreshEmptyData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSeleniumMockup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stocks.features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stocks.features" />
-      <option name="MAIN_CLASS_NAME" value="com.stocks.features.LoginTest" />
-      <option name="METHOD_NAME" value="testRefreshEmptyData" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,13 +110,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSeleniumMockup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stocks.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.RegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.testBackToLogInLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSeleniumMockup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stocks.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.RegistrationTest" />
+      <option name="METHOD_NAME" value="testBackToLogInLink" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.testSuccessfulRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSeleniumMockup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stocks.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stocks.features" />
+      <option name="MAIN_CLASS_NAME" value="com.stocks.features.RegistrationTest" />
+      <option name="METHOD_NAME" value="testSuccessfulRegistration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.testLogoVisibility" />
-        <item itemvalue="JUnit.LoginTest.testDisabledLogInButton" />
-        <item itemvalue="JUnit.LoginTest.testRefreshEmptyData" />
+        <item itemvalue="JUnit.RegistrationTest" />
+        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.RegistrationTest.testSuccessfulRegistration" />
+        <item itemvalue="JUnit.RegistrationTest.testBackToLogInLink" />
         <item itemvalue="JUnit.LoginTest.testRegistrationLink" />
-        <item itemvalue="JUnit.LoginTest.testMissingValuePasswordError" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688381987788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="login tests for stocks">
+      <created>1688485275182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688485275182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +208,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="mockup automation project" />
     <MESSAGE value="upgrade to chromedriver 114" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade to chromedriver 114" />
+    <MESSAGE value="login tests for stocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="login tests for stocks" />
   </component>
 </project>
